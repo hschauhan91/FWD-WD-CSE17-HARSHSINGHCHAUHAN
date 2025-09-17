@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Job Application Form</title>
+</head>
+<body>
+    <h2><b>APPLICATION FORM</b></h2>
+    <p>
+        Thank you for your interest in working with us. Please check below for available job opportunities that meet your criteria and send your application by filling out the Job Application Form.
+    </p>
+
+    <form>
+        <label>* Full Name:</label>
+        <input type="text" placeholder="Enter your full name" required />
+        <br /><br />
+
+        <label>* Email:</label>
+        <input type="email" placeholder="Enter your Email" required />
+        <br /><br />
+
+        <label>* Age:</label>
+        <input type="number" placeholder="Age" required />
+        <br /><br />
+
+        <label>Which option best describes your current role?</label>
+        <select>
+            <option>Student</option>
+            <option>Employee</option>
+            <option>Self-employed</option>
+            <option>Unemployed</option>
+            <option>Other</option>
+        </select>
+        <br /><br />
+
+        <label>* Would you like to list references?</label>
+        <input type="radio" name="references" id="yes" />
+        <label for="yes">Yes</label>
+        <input type="radio" name="references" id="no" />
+        <label for="no">No</label>
+        <br /><br />
+
+        <label>Which position would you like to apply for?</label>
+        <select>
+            <option>Select an option</option>
+            <option>Software Engineer</option>
+            <option>Data Analyst</option>
+            <option>Project Manager</option>
+            <option>Designer</option>
+        </select>
+        <br /><br />
+
+        <label>Which programming languages do you know?</label>
+        <br />
+        <input type="checkbox" id="java" />
+        <label for="java">Java</label>
+        <br />
+        <input type="checkbox" id="python" />
+        <label for="python">Python</label>
+        <br />
+        <input type="checkbox" id="javascript" />
+        <label for="javascript">JavaScript</label>
+        <br />
+        <input type="checkbox" id="cpp" />
+        <label for="cpp">C++</label>
+        <br />
+        <input type="checkbox" id="swift" />
+        <label for="swift">Swift</label>
+        <br />
+        <input type="checkbox" id="ruby" />
+        <label for="ruby">Ruby</label>
+        <br />
+        <input type="checkbox" id="dotnet" />
+        <label for="dotnet">.NET</label>
+        <br /><br />
+
+        <label>Upload Resume (optional):</label>
+        <input type="file" />
+        <br /><br />
+
+        <label>Any Comments?</label>
+        <br />
+        <textarea placeholder="Enter your comment here..."></textarea>
+        <br /><br />
+
+        <input type="submit" value="Submit Application" />
+    </form>
+</body>
+</html>
